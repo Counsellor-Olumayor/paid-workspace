@@ -79,7 +79,7 @@ export default async function DashboardPage() {
           </div>
         ) : (
           <div className="space-y-3">
-            {recentProjects.map((project) => (
+            {recentProjects.map((project: any) => (
               <div
                 key={project.id}
                 className="p-4 border rounded-lg bg-white flex items-center justify-between shadow-sm"
