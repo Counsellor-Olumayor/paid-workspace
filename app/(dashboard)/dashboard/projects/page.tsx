@@ -52,7 +52,7 @@ export default async function ProjectsPage() {
         {projects.length === 0 ? (
           <p className="text-gray-500">No projects found.</p>
         ) : (
-          projects.map((project) => (
+          projects.map((project: any) => (
             <div
               key={project.id}
               className="p-4 border rounded-lg shadow-sm flex items-center justify-between bg-white"
