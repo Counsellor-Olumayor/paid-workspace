@@ -56,7 +56,7 @@ Local Development: http://localhost:3000/api/auth/callback/github
 
 Production Deployment: https://paid-workspace.vercel.app/api/auth/callback/github
 
-🚀 Getting Started Locally
+ Getting Started Locally
 Clone the repository:
 git clone [https://github.com/Counsellor-Olumayor/paid-workspace.git](https://github.com/Counsellor-Olumayor/paid-workspace.git)
 cd paid-workspace
